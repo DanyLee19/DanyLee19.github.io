@@ -38,12 +38,36 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix">
+      <p>
+        Hi! My name is <strong>Danyang Li (李丹阳)</strong>. I am a final-year Ph.D. student at the <a href="https://www.thss.tsinghua.edu.cn/">School of Software</a> in <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, where I am advised by Prof. <a href="http://tns.thss.tsinghua.edu.cn/~yangzheng/" rel="external nofollow noopener" target="_blank">Zheng Yang</a>. 
+        Since joining the MobiSense Lab in 2019, I have completed my M.E. degree in Software Engineering and am continuing my research under Professor Yang's guidance.
+        Before that, I received my B.E. degree from the School of Software in Yanshan University in 2019.
+      </p>
+
+      <p><br>
+        <i class="fa-solid fa-location-dot"></i> <strong>Address:</strong> Room 11-211, East Main Building, Tsinghua University
+      </p>
+
+      <p>
+        <i class="fa-solid fa-envelope"></i> <strong>E-mail:</strong> <a href="mailto:lidanyang1919@gmail.com">lidanyang1919@gmail.com</a> / <a href="mailto:ldy22@mails.tsinghua.edu.cn">ldy22@mails.tsinghua.edu.cn</a>
+      </p>
+
+      <p><i class="fa-solid fa-magnifying-glass"></i> <strong>Research Interests:</strong></p>
+
+      <ul>
+        <li>Embodied AI, Mobile Computing</li>
+        <li>Edge Computing, Embodied Navigation</li>
+        <li>Visual SLAM systems, Event Camera</li>
+      </ul>
+
+      {% comment %} {{ content }} {% endcomment %}
+    </div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -59,7 +83,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

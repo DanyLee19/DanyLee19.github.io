@@ -1,9 +1,21 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+
+
+"ACM MobiCom":
+  url: .
+  color: "#BA2867"
+
+"ACM MobiSys":
+  url: .
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IEEE TMC":
+  url: .
+  color: "#2878B5"
 
-"Vision":
-  color: "#009f36"
+"IEEE INFOCOM":
+  url: .
+  color: "#009540"
+
+"IEEE/ACM TOSN":
+  url: .
+  color: "#FF9C31"

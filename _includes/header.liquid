@@ -24,6 +24,11 @@
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
+      {% if page.url == "/" %}
+        <a href="https://www.tsinghua.edu.cn/" rel="external nofollow noopener" target="_blank">
+          <img src="{{ '/assets/img/thu-head.jpg' | relative_url }}" style="max-width: 150px; max-height: 50px;">
+        </a>
+      {% endif %}
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
