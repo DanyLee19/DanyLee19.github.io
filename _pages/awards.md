@@ -15,6 +15,10 @@ nav_order: 20
 
 <!-- <i class="fa fa-trophy"></i> National Scholarship, 2016, 2021. -->
 
+<p><i class="fa fa-trophy"></i> 2025, Outstanding Thesis &amp; Outstanding Graduate of Tsinghua University (Ph.D.)</p>
+
+<p><i class="fa fa-trophy"></i> 2025, Outstanding Graduate of Beijing (Ph.D.)</p>
+
 <p><i class="fa fa-trophy"></i> 2024, Huawei Scholarship</p>
 
 <p><i class="fa fa-trophy"></i> 2024, Student Travel Grant, IEEE INFOCOM</p>

@@ -57,6 +57,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x86-mingw32)
     execjs (2.10.0)
     fast-stemmer (1.0.2)
     feedjira (3.2.4)
@@ -67,6 +68,7 @@ GEM
     ffi (1.17.1-arm-linux-gnu)
     ffi (1.17.1-arm-linux-musl)
     ffi (1.17.1-arm64-darwin)
+    ffi (1.17.1-x86-mingw32)
     ffi (1.17.1-x86_64-darwin)
     ffi (1.17.1-x86_64-linux-gnu)
     ffi (1.17.1-x86_64-linux-musl)
@@ -79,6 +81,9 @@ GEM
       bigdecimal
       rake (>= 13)
     google-protobuf (4.29.3-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.3-x86-mingw32)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.29.3-x86_64-darwin)
@@ -176,11 +181,15 @@ GEM
     matrix (0.4.2)
     mercenary (0.4.0)
     mini_mime (1.1.5)
+    mini_portile2 (2.8.8)
     minitest (5.25.4)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
     namae (1.2.0)
       racc (~> 1.7)
+    nokogiri (1.18.1)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.18.1-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.1-aarch64-linux-musl)
@@ -210,6 +219,9 @@ GEM
     rexml (3.4.0)
     rouge (4.5.1)
     safe_yaml (1.0.5)
+    sass-embedded (1.83.4)
+      google-protobuf (~> 4.29)
+      rake (>= 13)
     sass-embedded (1.83.4-aarch64-linux-gnu)
       google-protobuf (~> 4.29)
     sass-embedded (1.83.4-aarch64-linux-musl)
@@ -249,6 +261,7 @@ PLATFORMS
   arm-linux-musl
   arm-linux-musleabihf
   arm64-darwin
+  x86-mingw32
   x86_64-darwin
   x86_64-linux
   x86_64-linux-gnu
