@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Awards/
-title: Awards
+title: Honors & Awards
 description: 
 nav: true
 nav_order: 20
@@ -14,6 +14,9 @@ nav_order: 20
 <!-- <i class="fa fa-trophy"></i> Tsinghua Shui-mu Scholarship (清华大学水木学者), 2022. -->
 
 <!-- <i class="fa fa-trophy"></i> National Scholarship, 2016, 2021. -->
+
+
+<p><i class="fa fa-trophy"></i> 2025, Shuimu Scholar (水木学者), Tsinghua University</p>
 
 <p><i class="fa fa-trophy"></i> 2025, Outstanding Thesis &amp; Outstanding Graduate of Tsinghua University (Ph.D.)</p>
 
