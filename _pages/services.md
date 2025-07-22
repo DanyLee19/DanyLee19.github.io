@@ -17,10 +17,17 @@ nav_order: 30
   <li>IEEE Transactions on Vehicular Technology (TVT), 2023-present</li>
   <li>IEEE Transactions on Circuits and Systems (TCAS), 2025-present</li>
   <li>Springer The Journal of Supercomputing (TJSC), 2024-present</li>
-  <li>Nature Scientific Reports, 2025-present</li>
+  <li>Engineering Applications of Artificial Intelligence (EAAI), 2025-present</li>
+  <li>Robotics and Autonomous Systems, 2025-present</li>
+  <li>Neurocomputing, 2025-present</li>
+  <li>Pattern Recognition, 2025-present</li>
+  <li>Ad Hoc Networks, 2025-present</li>
+  <!-- <li>Nature Scientific Reports, 2025-present</li>
+  <li>Elsevier Engineering Applications of Artificial Intelligence, 2025-present</li>
+  <li>Elsevier Robotics and Autonomous Systems, 2025-present</li>
   <li>Elsevier Neurocomputing, 2025-present</li>
-  <li>Elsevier Ad Hoc Networks, 2025-present</li>
   <li>Elsevier Pattern Recognition, 2025-present</li>
+  <li>Elsevier Ad Hoc Networks, 2025-present</li> -->
 </ul>
 
 <h3 id="teaching">Teaching</h3>
