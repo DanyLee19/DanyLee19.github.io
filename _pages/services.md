@@ -10,6 +10,10 @@ nav_order: 30
 
 <article>
 
+<h3 id="pc">Program Committee Member</h3>
+<ul>
+  <li>AAAI, 2026</li>
+</ul>
 
 <h3 id="reviewer">Reviewer</h3>
 <ul>
